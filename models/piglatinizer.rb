@@ -1,12 +1,12 @@
-class Piglatinizer 
+class Piglatinizer
   attr_reader :text
 
   def initialize(text)
-    @text = text.downcase 
-  end 
+    @text = text.downcase
+  end
 
-  def translator 
+  def translator
 
-  end 
+  end
 
 end 
