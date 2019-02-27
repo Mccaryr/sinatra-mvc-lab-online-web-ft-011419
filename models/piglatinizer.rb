@@ -5,7 +5,7 @@ class PigLatinizer
     @words = words
   end
 
-  def piglatinize(words)
+  def piglatinize
     phrase = words.split(" ")
     phrase.each do |word|
       word.slice[0]
