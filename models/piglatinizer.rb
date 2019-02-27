@@ -1,4 +1,3 @@
-  require 'pry'
 class Piglatinizer
   attr_reader :text
 
