@@ -9,8 +9,8 @@ class Piglatinizer
   def translator
     words = text.split(" ")
     words.each do |word|
-      word.slice[0]
       binding.pry
+      word.slice[0]
     end
   end
 
