@@ -6,8 +6,8 @@ class PigLatinizer
   end
 
   def translator
-    words = text.split(" ")
-    words.each do |word|
+    phrase = words.split(" ")
+    phrase.each do |word|
       word.slice[0]
     end
   end
