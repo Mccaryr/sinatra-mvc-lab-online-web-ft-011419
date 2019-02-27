@@ -2,7 +2,7 @@ require 'pry'
 class PigLatinizer
 
 
-  def piglatinize
+  def piglatinize(input_str)
     phrase = words.split(" ")
     phrase.each do |word|
       binding.pry
