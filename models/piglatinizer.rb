@@ -6,7 +6,7 @@ class Piglatinizer
   end
 
   def translator
-
+    words = text.split(" ")
   end
 
-end 
+end
