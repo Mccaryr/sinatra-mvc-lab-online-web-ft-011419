@@ -1,3 +1,4 @@
+  require 'pry'
 class Piglatinizer
   attr_reader :text
 
@@ -7,6 +8,9 @@ class Piglatinizer
 
   def translator
     words = text.split(" ")
+    words.each do |word|
+      word.slice[0]
+      binding.pry
   end
 
 end
