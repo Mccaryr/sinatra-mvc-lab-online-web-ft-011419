@@ -11,6 +11,7 @@ class Piglatinizer
     words.each do |word|
       word.slice[0]
       binding.pry
+    end 
   end
 
 end
